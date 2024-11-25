@@ -1,0 +1,127 @@
+/* FONTS */
+
+.climate-crisis-regular {
+    font-family: "Climate Crisis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "YEAR" 1979;
+  }
+  .hanuman-thin {
+      font-family: "Hanuman", serif;
+      font-weight: 100;
+      font-style: normal;
+    }
+  
+    .hanuman-light {
+      font-family: "Hanuman", serif;
+      font-weight: 300;
+      font-style: normal;
+    }
+  
+    .hanuman-regular {
+      font-family: "Hanuman", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+  
+    .hanuman-bold {
+      font-family: "Hanuman", serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+  
+    .hanuman-black {
+      font-family: "Hanuman", serif;
+      font-weight: 900;
+      font-style: normal;
+    }
+    .candal-regular {
+      font-family: "Candal", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .chango-regular {
+      font-family: "Chango", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .bungee-shade-regular {
+      font-family: "Bungee Shade", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .marko-one-regular {
+      font-family: "Marko One", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+  
+  
+  /* Styling */
+  
+  .main-img {
+      background-size: cover;
+      background-position: center center;
+      width: 100vw;
+      height: 85vh;
+  }
+  
+  .heading-1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff791;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+  }
+  
+  .main-header {
+      margin: 4rem auto 4rem auto;
+  }
+  
+  .list-group-item {
+      padding: 2rem auto 2rem auto;
+  }
+  
+  .offcanvas {
+    height: 50vh;
+  }
+  
+  .accordion-button {
+    font-size: 1.5rem;
+  }
+  
+  #main-beans {
+    background-color: #FCCD2A;
+  }
+  
+  #main-region {
+    background-color: #1346bb;
+  }
+  
+  #main-process {
+    background-color: #97ee89;
+  }
+  
+  #main-roast {
+    background-color: #3d0dab;
+  }
+  
+  #progress-light {
+    background-color: #a16c48;
+  }
+  
+  #progress-medium {
+    background-color: #643e2e;
+  }
+  
+  #progress-medium-dark {
+    background-color: #554340;
+  }
+  
+  #progress-dark {
+    background-color: #251108;
+  }

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Candal&family=Chango&family=Climate+Crisis&family=Hanuman:wght@100;300;400;700;900&family=Marko+One&display=swap');
+        </style>
+        <script>
+          document.addEventListener('DOMContentLoaded', () => {
+            let mainDiv = document.querySelector('.main-img');
+            let image = "https://c.pxhere.com/photos/5e/39/coffee_cafe_coffee_bean_coffee_beans_roast_coffee_roasting-676183.jpg!d";
+            mainDiv.style.backgroundImage = `url(${image})`;
+          })
+        </script>
+        <title>Process</title>
+    </head>
+    <body id="home-main">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light chango-regular">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="/beans.html">Beans</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="/region.html">Region</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="/process.html">Process</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link active" href="/roast.html">Roast</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="main-img">
+            <div class="heading-1 climate-crisis-regular">
+              <h1 class="display-1">Smoke Show</h1>
+            </div>
+          </div>
+          <div class="main-div text-white" id="main-roast">
+            <section class="row col-sm-11 mx-auto">
+              <h3 class="main-header container-sm col-sm-6 candal-regular">
+                We all know the smell. Whether stepping into a coffee shop, opening up a bag of coffee at home, or sitting in front of a freshly brewed cup,
+                the aroma we all know and love is thanks to the final step in the coffee bean journey; the roast. Roasting coffee is a necessary step to turn
+                the processed green coffee beans into the fragrant, flavorful beans ready to be used in our favorite drink.
+                <br>
+                <br>
+                Roasting is a meticulous process and a difficult one to master. Getting the desired level and even roast usually requires the use of expensive
+                commercial roasters, which can closely monitor and adjust temperature and airflow. Different roast levels have different characteristics, and the
+                desired level can be dictated by the type of bean, and which flavors the roaster wants to highlight and showcase.
+              </h3>
+              <div class="container-sm col-sm-4">
+                <div class="py-3">
+                  <figure class="figure mx-auto">
+                    <img src="https://nationalcoffee.blog/wp-content/uploads/2015/11/roasting.png" class="figure-img img-fluid rounded" alt="roast level chart">
+                    <figcaption class="figure-caption">Overview of roast levels</figcaption>
+                  </figure>
+                </div>
+              </div>
+            </section>
+            <section class="main-desc container-fluid hanuman-regular my-5 bg-white text-dark py-5">
+              <figure class="figure">
+                <img src="https://cdn.shopify.com/s/files/1/2783/4082/files/black-creek-coffee-roast-degrees-beans-920.jpg?v=1623261408" class="figure-img img-fluid rounded" alt="...">
+                <figcaption class="figure-caption">Color range from green, unroasted beans to dark roasted</figcaption>
+              </figure>
+              <h3 class="container-fluid col-sm-10 py-4">
+                Because there are many names given to different roast levels, SCAA
+                (Specialty Coffee Association of America) has attempted to standardize the roast index by an Agtron number. The Agtron number refers explicitly to an
+                infrared reflectance measurement of a roasted coffee sample, specifically targeting the caramelization of sucrose. The higher the Agtron number,
+                the lighter the roast. Though the infared band used by Agtron
+                is outside the visible spectrum for humans, and doesn't reflect how we would perceive the coffee, in general lighter pale brown hues indicate light
+                roast, with dark, deep, shiny brown indicating a heavy roast.
+                <br>
+                Around the world, a country or regions favored roast level can demonstrate the flavor profile they value, as well as the style and types of
+                coffee drinks they enjoy.
+              </h3>
+              <div class="container-fluid row">
+                <div class="container-fluid col-sm-5 py-3">
+                  <h3>
+                    <i>Light Roast</i>
+                  </h3>
+                  <div class="progress">
+                    <div class="progress-bar" id="progress-light" role="progressbar" aria-label="Example with label" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Agtron: &#62; 65</div>
+                  </div>
+                  <p class="py-4">
+                    Light roasted coffee is for those who enjoy fruity, floral flavors and higher acidity in their cup. More often seen in specialty and higher end
+                    coffee, light roasting keeps more of the beans inherent flavors, and showcases the variety, processing, and terroir of the bean more than other roast
+                    styles. Pale brown and a matte exterior are the visible signs of a light roast, with slightly fruity, floral, nutty, cereal like aromas permeating
+                    from the beans. Light roasts usually favor pour-over and drip style preparations, which bring out its delicate and nuanced flavors. Nordic coffee is
+                    known for being lightly roasted, and influencing the increase in lighter style roasts in specialty coffee.
+                  </p>
+                </div>
+                <div class="container-fluid col-sm-5 py-3">
+                  <h3>
+                    <i>Medium Roast</i>
+                  </h3>
+                  <div class="progress">
+                    <div class="progress-bar" id="progress-medium" role="progressbar" aria-label="Example with label" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">Agtron: 50-65</div>
+                  </div>
+                  <p class="py-4">
+                    Sometimes called "American Roast" or "City Roast", medium roasted coffee brings richer, fuller flavors with more body and less acidity than light roast.
+                    Notes such as caramel, chocolate and nuts begin to develop as the cooking continues, as well as rounder fruit flavors (plum, peach etc.) rather than
+                    zesty, and diminished floral notes. Medium roasted coffee is generally good for drip and pour-over, as well as some espresso if a lighter, fruiter shot
+                    is the goal. A medium roast allows for the some of the beans inherent uniqueness and flavors to still come through, while giving it deeper and richer flavors from
+                    the roasting process.
+                  </p>
+                </div>
+                <div class="container-fluid col-sm-5 py-3">
+                  <h3>
+                    <i>Medium-Dark Roast</i>
+                  </h3>
+                  <div class="progress">
+                    <div class="progress-bar" id="progress-medium-dark" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Agtron: 40-50</div>
+                  </div>
+                  <p class="py-4">
+                    Rich and dark colored, medium-dark roast brings more depth and bitterness to the medium roast. As the beans continue to cook, the oil inside
+                    starts to break through the surface, which starts to give medium-dark roasts a glossy look. More richness and chocolatey notes come through,
+                    as well as a bittersweet aftertaste, while losing its fruitiness and acidity. The terroir and uniqueness of the bean is much less present at
+                    this stage, as the flavors from the roasting process begin to dominate the overall profile.
+                  </p>
+                </div>
+                <div class="container-fluid col-sm-5 py-3">
+                  <h3>
+                    <i>Dark Roast</i>
+                  </h3>
+                  <div class="progress">
+                    <div class="progress-bar" id="progress-dark" role="progressbar" aria-label="Example with label" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Agtron: &#60; 40</div>
+                  </div>
+                  <p class="py-4">
+                    Dark, shiny, and oily looking, dark roasts bring bold, deep flavors of bittersweet chocolate, dark caramel, roasted nuts with some bitterness.
+                    These coffees exhibit the least amount of acidity, and the fruity and floral flavors have all but disappeared and given way to the roasting
+                    process. There are many names for dark roasts: Vienna, French, Italian etc. which are staples in their region, and all have slightly different
+                    roasting levels. Dark roasted coffee is well suited for espresso style preparations and to be mixed with milk or cream, as the dark, bold flavors
+                    stand up well to mixing and softening.
+                  </p>
+                </div>
+              </div>
+            </section>
+            <section class="container-fluid col-10 pb-3">
+              <h6>Souces & References</h6>
+              <div>
+                <ul>
+                  <li>
+                    <i>The Ultimate Guide to Understanding Coffee Roast Levels</i>, https://coffeebros.com/blogs/coffee/the-ultimate-guide-to-understanding-coffee-roast-levels?srsltid=AfmBOoq77qYk9sSZDCgW-bW5DgDWogammFSXp_cDJB8ZVaeco63Ira4_
+                  <li>
+                    <i>Color measurement and ingredient quality - consistency control in coffee products – Measure Agtron Number and do more with Sensegood spectrophotometer</i>, https://sensegoodinstruments.com/color-measurement-coffee-agtron-number.php
+                  </li>
+                  <li>
+                    Woodburn-Simmonds, M. (2023) <i>Coffee Roast Guide</i>, https://www.ncausa.org/About-Coffee/Coffee-Roasts-Guide
+                  </li>
+                  <li>
+                    Meister, E. (2023) <i>A Simplified Guide to Roast Level</i>, https://www.drinktrade.com/blogs/education/roast-level-guide?srsltid=AfmBOoq_1BXKRS2qajeMD6F4OlrINnBYXfuglJC_I_o1E0jOrFqZNs5t
+                  </li>
+                  <li>
+                    <i>Roast Profile & Degrees of Roast</i>, https://beans.at/en/kaffeewissen/kaffeeroestung/roestgrad-und-roestprofil
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+    </body>
+</html>

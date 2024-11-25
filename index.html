@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Candal&family=Chango&family=Climate+Crisis&family=Hanuman:wght@100;300;400;700;900&family=Marko+One&display=swap');
+        </style>
+        <script>
+          document.addEventListener('DOMContentLoaded', () => {
+            let mainDiv = document.querySelector('.main-img');
+            let image = "https://images.unsplash.com/photo-1504654613223-1eccc5820922?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+            mainDiv.style.backgroundImage = `url(${image})`;
+
+            let beanButton = document.querySelector('#bean-button');
+            let coffeeReveal = document.querySelector('#coffee-reveal');
+            let drinksArray = [
+              "Ristretto", "Espresso", "Doppio", "Lungo", "Cafe Crema", "Espressino", "Cafe Affogatto", "Cafe Con Hielo", "Cafe Cubano", "Bonbon",
+              "Espresso Romano", "Macchiato", "Cafe Con Leche", "Cortado", "Cortadito", "Piccolo Latte", "Cafe Del Tiempo", "Cappucino", "Flat White", "Cafe Au Lait",
+              "Breve", "Red Eye", "Black Eye", "Dead Eye", "Lazy Eye", "Turkish Coffee", "Americano", "Long Black", "Vienna", "Mocha", "Borgia", "Latte", "Ca Phe Sua Da",
+              "Galao", "Frappe", "Mazagram", "Irish Coffee"
+            ]
+            beanButton.addEventListener('click', ()=> {
+              coffeeReveal.innerHTML = drinksArray[Math.floor(Math.random() * 37)];
+            })
+          })
+        </script>
+        <title>Home</title>
+    </head>
+    <body id="home-main">
+        <nav class="navbar fixed-top navbar-expand-lg bg-light chango-regular">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item mx-2">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="/beans.html">Beans</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="/region.html">Region</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="/process.html">Process</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="/roast.html">Roast</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <section class="main-img">
+            <div class="heading-1 climate-crisis-regular">
+              <h1 class="display-1">Supreme Bean</h1>
+            </div>
+          </section>
+          <section class="main-div mb-5" id="main-home">
+            <section class="row col-sm-11 mx-auto">
+              <h3 class="main-header container-sm col-sm-10 candal-regular">
+                Hot or iced; straight or with milk; with breakfast or dessert; coffee is enjoyed in many ways. Dive into the vast and
+                complex world of coffee and the "bean" that has won the world over.
+              </h3>
+            </section>
+            <div class="main-desc container hanuman-regular col-sm-8">
+              <h3>A few coffee facts:</h3>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item py-4">
+                  Coffee Consumption is steadily on the rise. Global consumption of coffee is believed to be around 400 billion
+                  cups a year, second only to water.
+                </li>
+                <li class="list-group-item py-4">
+                  The United States is the largest consumer of coffee in the world, totaling around 1.6 billion pounds per year(2020-2021).
+                  <br>
+                  Luxembourg consumes the largest amount of coffee per person, averaging around 55.87 pounds per person per year!
+                </li>
+                <li class="list-group-item py-4">
+                  Even places like the UK or Japan which have a history of consuming tea (black tea, green tea etc.), are still big coffee
+                  consumers. About 80&#37; of households in the UK still purchase instant coffee, with
+                  24&#37; of people drinking a cup of coffee a day or more. Japan is the third largest consumer of coffee globally, consuming
+                  more than 443 million pounds of coffee per year(2020-2021).
+                </li>
+                <li class="list-group-item py-4">
+                  Coffee production has been steadily increasing with increased demand. The largest coffee growing region is South America,
+                  producing 4 million tons of coffee annually, followed by Asia with 3.36 million tons.
+                </li>
+                <li class="list-group-item py-4">
+                  The global coffee market was nearly $127 billion dollars in 2022, the largest market share being europe making up 35.58&#37;.
+                </li>
+                <li class="list-group-item py-4">
+                  Coffee is drank both in home and out. While many make coffee at home, over half of all Americans purchase a coffee from a
+                  coffee shop once a week. Popularity of espresso-based drinks has also seen a huge rise, with consumption up by 50&#37; from
+                  2015.
+                </li>
+                <li class="list-group-item py-4">
+                  With growing consumption and production of coffee, so too has interest in gourmet coffee and sustainability.
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="">
+            <div class="container row mx-auto">
+              <h4 class="">
+                Click the bean to see which coffee drink is in your future!
+              </h4>
+              <figure class="col-lg-2 mx-auto">
+                <img src="https://attic.sh/xyp9926p6ctt2dl97hltaopxjwh5" class="figure-img img-fluid rounded" id="bean-button" alt="coffee bean">
+                <figcaption class="figure-caption text-center"></figcaption>
+              </figure>
+              <h1 class="mx-auto text-bg-color-dark bg-dark text-white px-4 py-4 rounded" id="coffee-reveal"></h1>
+            </div>
+            <img src="https://i.redd.it/jjb7m8uzsdy41.jpg" alt="Coffee drinks chart" class="vw-100">
+          </section>
+          <section class="container-fluid col-10">
+            <h6>Souces & References</h6>
+            <div>
+              <ul>
+                <li>
+                  <i>Coffee Consumption Statistics (Simple Stats For Journalists)</i>, https://balancecoffee.co.uk/blogs/blog/global-coffee-consumption-statistics?srsltid=AfmBOorlSSpg0ZeEfrzZHiXYxtOCT27nZhR-93nZ3WDNl26rdG_CSJB7
+                </li>
+                <li>
+                  <i>20 Coffee Statistics That'll Blow Your Mind</i>, https://www.nescafe.com/gb/coffee-culture/knowledge/coffee-statistics
+                </li>
+                <li>
+                  <i>Coffee Statistics, Consumer Trends, & Key Takeaways [2024]</i>, https://cafely.com/blogs/research/coffee-statistics?srsltid=AfmBOoo8IwoXalAOtBqBocdVsszGGXxj_QJUIhSWrdIDMKlqQoDTmN_m
+                </li>
+              </ul>
+            </div>
+          </section>
+    </body>
+</html>

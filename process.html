@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Candal&family=Chango&family=Climate+Crisis&family=Hanuman:wght@100;300;400;700;900&family=Marko+One&display=swap');
+        </style>
+        <script>
+          document.addEventListener('DOMContentLoaded', () => {
+            let mainDiv = document.querySelector('.main-img');
+            let image = "https://upload.wikimedia.org/wikipedia/commons/0/0e/Coffee_beans_being_sorted_and_pulped.jpg";
+            mainDiv.style.backgroundImage = `url(${image})`;
+          })
+        </script>
+        <title>Process</title>
+    </head>
+    <body id="home-main">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light chango-regular">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="/beans.html">Beans</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="/region.html">Region</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link active" href="/process.html">Process</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="/roast.html">Roast</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="main-img">
+            <div class="heading-1 climate-crisis-regular">
+              <h1 class="display-1">Rinse & Dry</h1>
+            </div>
+          </div>
+          <div class="main-div" id="main-process">
+            <section class="row col-sm-11 mx-auto">
+              <h3 class="main-header container-sm col-sm-10 candal-regular">
+                Coffee processing is a unique and vital step in the journey from harvested fruit to freshly brewed cup. Just
+                as grapes must go through processing and fermentation before it becomes wine, the coffee bean must
+                be extracted and dried before it is ready to roast, and be consumed.
+                <br>
+                <br>
+                There are a variety of ways that coffee can be processed, and each method can impart or highlight different flavors
+                and characteristics in the final coffee. Certain processing techniques are more common depending on the region,
+                contributing to the distinctive flavor profile of coffees from said region.
+              </h3>
+            </section>
+            <section class="main-desc container-fluid hanuman-regular my-5 bg-white py-5">
+              <div class="container-fluid  col-sm-10 py-4">
+                <h2><b>Natural Process (Dry)</b></h2>
+                <div>
+                  <figure class="figure col-sm-8">
+                    <img src="https://live.staticflickr.com/5217/5385705012_ed6ec0dc8d_b.jpg" class="figure-img img-fluid rounded" alt="Natural process coffee drying">
+                    <!-- <figcaption class="figure-caption">Coffee drying on raised beds</figcaption> -->
+                  </figure>
+                </div>
+                <p>
+                  The oldest and most traditional method to process coffee, natural or dry processed coffee one that is still commonly used
+                  today. This process involves drying the entire coffee cherry with the seed still inside, which imparts deeper flavors and
+                  adds to the sweetness and body of the final cup. Usually seen in some Ethiopian and Brazilian coffees, this processing
+                  method favors dry and sunny areas without much water, as not requiring large amounts of water to wash and soak the coffee
+                  is an important factor in choosing this process. Some issues with the natural process is the inconsistant quality, as its
+                  hard to replicate same conditions as prior, and potential for spoilage, rot, and overfermentation.
+                </p>
+                <div class="accordion accordion-flush" id="accordionFlushNatural">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingNaturalOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseNaturalOne">
+                          Drying
+                      </button>
+                    </h2>
+                    <div id="flush-collapseNaturalOne" class="accordion-collapse collapse" aria-labelledby="flush-headingNaturalOne" data-bs-parent="#accordionFlushNatural">
+                      <div class="accordion-body">
+                        <p>
+                          Coffee cherries are sorted and then laid out on drying beds as is, with the seed still inside. The cherries are dried in
+                          the sun and raked and turned to prevent mold and rot. The process of drying the whole fruit together imparts stronger fruit
+                          (blueberry, strawberry etc.) flavors, sweetness, and produces a deeper heavier cup of coffee. It can also impart some unpleasant
+                          flavors as well (barnyard, ferment, manure) however if not done correctly, or some spoilage occurs.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingNaturalTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseNaturalTwo">
+                          Hulling
+                      </button>
+                    </h2>
+                    <div id="flush-collapseNaturalTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingNaturalTwo" data-bs-parent="#accordionFlushNatural">
+                      <div class="accordion-body">
+                        <p>
+                          After the fruit is completely dry, the seed is hulled which removes all the outer layers; the skin, dried fruit, mucilage, parchment
+                          husk, to reveal the green bean inside.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container-fluid col-sm-10 py-4">
+                <h2><b>Washed Process (Wet)</b></h2>
+                <div>
+                  <figure class="figure col-sm-8">
+                    <img src="https://live.staticflickr.com/5056/5431594728_3852eca435_b.jpg" class="figure-img img-fluid rounded" alt="Washed coffee processing">
+                    <!-- <figcaption class="figure-caption">Coffee drying on raised beds</figcaption> -->
+                  </figure>
+                </div>
+                <p>
+                  Wet or washed processing involves removing all the flesh from the seed before drying. Instead of drying in the fruit, the coffee
+                  seed is depulped, often using a specialized machine, which detatches the skin and flesh from the seed. These then move to tanks
+                  of water, where the remaining fruit and mucilage are fermented and completely washed away. This process is more common in regions
+                  like Central America, where large plantations and water sources make it a consistent and viable option.
+                </p>
+                <div class="accordion accordion-flush" id="accordionFlushWashed">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingWashedOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseWashedOne">
+                          Depulping
+                      </button>
+                    </h2>
+                    <div id="flush-collapseWashedOne" class="accordion-collapse collapse" aria-labelledby="flush-headingWashedOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          Unlike the natural process, coffee cherries in the washed process go through a de-pulping stage. The coffee cherries are sorted then
+                          run through a "de-pulper", a machine which removes the outer skin and the pulp. The coffee is then moved to remove the mucilage.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingWashedTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseWashedTwo">
+                          Washing
+                      </button>
+                    </h2>
+                    <div id="flush-collapseWashedTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingWashedTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          After de-pulping, the coffee seeds are moved to tanks for a short ferment. Done in either tanks filled with water or dry, this fermentation
+                          period helps to break down the mucilage, or sticky outer coating still present after de-pulping. After a day or so, the fermented seeds are
+                          rinsed and washed, removing any remaining mucilage before it is set to dry.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingWashedThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseWashedThree">
+                          Drying
+                      </button>
+                    </h2>
+                    <div id="flush-collapseWashedThree" class="accordion-collapse collapse" aria-labelledby="flush-headingWashedThree" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          Washed coffee seeds are laid out into a thin layer to dry. They are usually raked several times a day, making sure that they dry out evenly.
+                          This is continued until the beans reach the optimal moisture level (about 11&#37;) and usually takes 1 to 2 weeks. The seeds are then left
+                          in their parchment (thin layer around seed) and stored until it is ready to ship.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingWashedFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseWashedFour">
+                          Hulling
+                      </button>
+                    </h2>
+                    <div id="flush-collapseWashedFour" class="accordion-collapse collapse" aria-labelledby="flush-headingWashedFour" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          Once dried, the seed is hulled to remove the parchment layer.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container-fluid col-sm-10 py-4">
+                <h2><b>Honey Process</b></h2>
+                <div>
+                  <figure class="figure col-sm-8">
+                    <img src="https://live.staticflickr.com/4700/40480324062_6c34b06a1b_b.jpg" class="figure-img img-fluid rounded" alt="Honey process coffee drying">
+                    <!-- <figcaption class="figure-caption">Coffee drying on raised beds</figcaption> -->
+                  </figure>
+                </div>
+                <p>
+                  Originating from Costa Rica, honey processing is seen increasingly in the specialty coffee market. Contrary to what the name might suggest, honey
+                  processing doesn't involve the use of honey at all, but instead refers to the mucilage within the coffee cherry thats kept on to impart flavor to
+                  the seed. Because of this there are various levels to honey processed coffee, reflecting the amount of mucilage that is left on:
+                  <ul>
+                    <li>
+                      <b>White Honey:</b> close to wet processed, 80-100&#37; of mucilage removed.
+                    </li>
+                    <li>
+                      <b>Yellow Honey:</b> 50-75&#37; of mucliage removed.
+                    </li>
+                    <li>
+                      <b>Red Honey:</b> 25-50&#37; of mucilage removed, getting close to natural process coffee.
+                    </li>
+                    <li>
+                      <b>Black Honey:</b> 0-25&#37; of skin and mucilage removed.
+                    </li>
+                  </ul>
+                  Honey processed coffee can mimic some of the effects of natural dried coffee, providing more fruit and deeper flavors, while reducing the risks
+                  of defects, resulting in a cup that falls somewhere between natural and washed coffee.
+                </p>
+                <div class="accordion accordion-flush" id="accordionFlushHoney">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingHoneyOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseHoneyOne">
+                          Depulping
+                      </button>
+                    </h2>
+                    <div id="flush-collapseHoneyOne" class="accordion-collapse collapse" aria-labelledby="flush-headingHoneyOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          Sorted coffee cherries are run through the de-pulper. Depending on the style and level of "honey" desired, the machine will be set to remove
+                          a small portion or much of the pulp and mucilage from the seed. The more mucilage left on will result in bolder, fruitier flavor.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingHoneyTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseHoneyTwo">
+                          Drying
+                      </button>
+                    </h2>
+                    <div id="flush-collapseHoneyTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingHoneyTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          Once de-pulped, the beans are moved to be dried with the mucilage still attached. As opposed to the washed process, keeping the mucilage on
+                          the fruit while it dries will fuse some of the flavor of the cherry into the seed. Spreading out under the sun, the seeds are raked and moved
+                          frequently to avoid mold and spoilage.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingHoneyThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseHoneyThree">
+                          Hulling
+                      </button>
+                    </h2>
+                    <div id="flush-collapseHoneyThree" class="accordion-collapse collapse" aria-labelledby="flush-headingHoneyThree" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          Washed coffee seeds are laid out into a thin layer to dry. They are usually raked several times a day, making sure that they dry out evenly.
+                          This is continued until the beans reach the optimal moisture level (about 11&#37;) and usually takes 1 to 2 weeks. The seeds are then left
+                          in their parchment (thin layer around seed) and stored until it is ready to ship.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container-fluid col-sm-10 py-4">
+                <h2><b>Wet Hulled Process (Semi-washed)</b></h2>
+                <div>
+                  <figure class="figure col-sm-8">
+                    <img src="https://i0.wp.com/www.brightjava.com/wp-content/uploads/2020/07/wethulleddrying.jpg?fit=2560%2C1440&ssl=1" class="figure-img img-fluid rounded" alt="Wet hulled green coffee">
+                    <!-- <figcaption class="figure-caption">Coffee drying on raised beds</figcaption> -->
+                  </figure>
+                </div>
+                <p>
+                  The wet hulled process, sometimes called semi-washed, is a method commonly used in Indonesia which allows for efficient and speedy processing
+                  in areas with a humid climate. This process goes through two drying stages, and removes the parchment layer before drying, which aids in
+                  speeding up the drying process. The combination of leaving the mucilage on before the first dry, then removing all the layers before the second
+                  dry, contribute to the unique earthy, smokey, woody, tobacco flavors and heavy body found in Indonesian coffees.
+                </p>
+                <div class="accordion accordion-flush" id="accordionFlushWetHulled">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingWetHulledOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseWetHulledOne">
+                          Depulping
+                      </button>
+                    </h2>
+                    <div id="flush-collapseWetHulledOne" class="accordion-collapse collapse" aria-labelledby="flush-headingWetHulledOne" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          Much like with the other processes, the coffee cherries are first depulped to remove the outer layers. The seed is then left with mucilage
+                          in a tank and left for a short fermentation.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingWetHulledTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseWetHulledTwo">
+                          First Dry
+                      </button>
+                    </h2>
+                    <div id="flush-collapseWetHulledTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingWetHulledTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          After a short fermentation, the seeds are moved to dry outside. This initial drying step is not to dry the seed completely but to prepare
+                          the seed for wet hulling. After the moisture reaches 30-35&#37; in the coffee bean, it will bee moved to be hulled.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingWetHulledThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseWetHulledThree">
+                          Hulling
+                      </button>
+                    </h2>
+                    <div id="flush-collapseWetHulledThree" class="accordion-collapse collapse" aria-labelledby="flush-headingWetHulledThree" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          The seed goes through the hulling machine, and much like the de-pulping stage, the outer layers remaining will be removed. The main
+                          difference with the wet hull method is that the parchment layer, or the thin layer surrounding the green bean, is also removed at this stage.
+                          In other methods, the parchment is left on to dry until the product is ready to ship. The removal of parchment at this and exposing the
+                          green beans at this stage leads to them having a swampy green color, and affects the ultimate flavor of the coffee.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingWetHulledFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseWetHulledFour">
+                          Drying
+                      </button>
+                    </h2>
+                    <div id="flush-collapseWetHulledFour" class="accordion-collapse collapse" aria-labelledby="flush-headingWetHulledFour" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>
+                          The bare green bean is taken outside to dry again and left to dry. Usually done layed out and raked as with other methods, drying the green
+                          bean without the parchment leads to shorter and easier drying in humid and cloudy environments.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container-fluid col-sm-10 py-4">
+                <h2><b>Anaerobic Fermentation? Carbonic Maceration?</b></h2>
+                <div>
+                  <figure class="figure col-sm-8">
+                    <img src="https://allyopen.com/cdn/shop/articles/La_Chumeca_-_Martin_Urena_Quiros_-_COSTA_RICA_1200x1200.jpg?v=1651767358" class="figure-img img-fluid rounded" alt="Anaerobic fermentation tank">
+                    <!-- <figcaption class="figure-caption">Coffee drying on raised beds</figcaption> -->
+                  </figure>
+                </div>
+                <p>
+                  A process seen more in the specialty coffee field is anaerobic fermentation or carbonic maceration. All coffee goes through a fermentation
+                  period, for instance, after being depulped to break down the mucilage around the seed and aid in additional processing. Anaerobic fermentation
+                  and carbonic maceration are methods used to control the fermentation process and impart different flavors into the coffee.
+                  <br>
+                  Coffee is placed into sealed tanks, with a scarcity of oxygen. This encourages different communities of microorganisms to flourish than open
+                  air fermentation. As the bacteria break down the sugars into carbon dioxide and alcohol, a pressure release valve is necessary to release the gas
+                  without letting in oxygen. This increased pressure, along with the differing bacteria, produce aromas and flavors unique to coffees fermented
+                  the traditional way.
+                  <br>
+                  Some producers will add the pulp from the coffee cherries, pulp from other cherries, spices, fruit etc. to impart more flavor into the coffee.
+                  Overall, this fermentation process is more tedious and time consuming, and can take up to 3 months to complete.
+                  <br>
+                  <br>
+                  <b>Anaerobic Fermentation:</b> mucilage covered seeds are placed into the sealed tanks. Some pulp, additional fruit, spices are occasionally
+                  added to enhance flavor during fermentation.
+                  <br>
+                  <br>
+                  <b>Carbonic Maceration:</b> adapted from wine-making, similar to anaerobic fermentation except that the whole fruit is
+                  fermented in tanks rather than the depulped seeds.
+                </p>
+              </div>
+            </section>
+            <section class="container-fluid col-10 pb-3">
+              <h6>Souces & References</h6>
+              <div>
+                <ul>
+                  <li>
+                    <i>Coffee Processing Methods</i>, https://beannbeancoffee.com/blogs/beansider/coffee-processing-methods?srsltid=AfmBOorAY650h4u2qiZpMjLUkXzne77hryE6gGAUjnFsAkjSRuetmQ8K
+                  </li>
+                  <li>
+                    <i>DISCOVER THE UNIVERSE OF COFFEE PROCESSING: ESSENTIAL KNOWLEDGE FOR ALL COFFEE LOVERS!</i>, https://rootsbkk.com/journal/basic-coffee-processing/
+                  </li>
+                  <li>
+                    Woodburn-Simmonds, M. (2023) <i>Coffee Processing Methods 101: Washed vs Natural vs Honey</i>, https://homecoffeeexpert.com/coffee-processing-methods/
+                  </li>
+                  <li>
+                    <i>Anaerobic & Carbonic Maceration Coffee Processing</i>, https://www.royalny.com/post-harvest-coffee-processing-anaerobic-fermentation-and-carbonic-maceration/?srsltid=AfmBOoq26NoTziqC0k9VyaO42PUalO0SgV12vbvaqX5EDMLNCXXDffu2
+                  </li>
+                  <li>
+                    <i>Coffee Varietals Explained: Ethiopian Heirloom, Typica, Caturra & More</i>, https://us.theroasterspack.com/pages/coffee-varietals-explained
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+    </body>
+</html>
